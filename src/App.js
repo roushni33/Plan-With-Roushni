@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+import { useState } from 'react';
+import data from './data.js';
 import './App.css';
+import Tours from "./Components/tours.js"
 
 function App() {
+  const [tours, setTours] = useState(data)
+  console.log("From app ", tours)
+  console.log("raw data", data)
+  function removeTour(id) {
+    const newTours = tours.filter(tour => tour.id !== id);
+    setTours(newTours);
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Hello</h1>
+
+      <Tours tours={tours} removeTour={removeTour}></Tours>
     </div>
   );
 }
