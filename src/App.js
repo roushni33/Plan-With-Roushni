@@ -5,8 +5,7 @@ import Tours from "./Components/tours.js"
 
 function App() {
   const [tours, setTours] = useState(data)
-  console.log("From app ", tours)
-  console.log("raw data", data)
+
   function removeTour(id) {
     const newTours = tours.filter(tour => tour.id !== id);
     setTours(newTours);

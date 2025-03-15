@@ -9,11 +9,11 @@ function Tours({ tours, removeTour }) {
 
          <div>
             {
-               // tours.map((tour) => {
-               //    console.log(tour)
-               //    return <Card {...tour} removeTour={removeTour} ></Card>
-               // })
-               // console.log(">>>>>>",tours[0])
+               tours.map((tour) => {
+                  
+                  return <Card {...tour} removeTour={removeTour} ></Card>
+               })
+               
                
             }
          </div>

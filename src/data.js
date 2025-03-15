@@ -4,7 +4,7 @@ const data = [
         name: "Agra",
         info: " Agra, city, western Uttar Pradesh state, northern India. It lies in the Indo-Gangetic Plain on the Yamuna (Jumna) River about 125 miles (200 km) southeast of Delhi.",
 
-        image: "assets/images/Agra.jpg",
+        image: "/assets/images/Agra.jpg",
         price: "35,560",
     },
 
@@ -13,7 +13,7 @@ const data = [
         name: "Jaipur",
         info: " Agra, city, western Uttar Pradesh state, northern India. It lies in the Indo-Gangetic Plain on the Yamuna (Jumna) River about 125 miles (200 km) southeast of Delhi.",
 
-        image: "assets/images/jaipur.jpg",
+        image: "/assets/images/jaipur.jpg",
         price: "35,560",
     },
 
@@ -22,7 +22,7 @@ const data = [
         name: "Goa",
         info: " Agra, city, western Uttar Pradesh state, northern India. It lies in the Indo-Gangetic Plain on the Yamuna (Jumna) River about 125 miles (200 km) southeast of Delhi.",
 
-        image: "assets/images/Goa.jpg",
+        image: "/assets/images/Goa.jpg",
         price: "35,560",
     },
 
@@ -32,7 +32,7 @@ const data = [
         name: "champaran",
         info: " Agra, city, western Uttar Pradesh state, northern India. It lies in the Indo-Gangetic Plain on the Yamuna (Jumna) River about 125 miles (200 km) southeast of Delhi.",
 
-        image: "assets/images/champaran.jpg",
+        image: "/assets/images/champaran.jpg",
         price: "35,560",
     },
 
@@ -42,7 +42,7 @@ const data = [
         name: "varanasi",
         info: " Agra, city, western Uttar Pradesh state, northern India. It lies in the Indo-Gangetic Plain on the Yamuna (Jumna) River about 125 miles (200 km) southeast of Delhi.",
 
-        image: ".assets/images/varanasi.jpg",
+        image: "./assets/images/varanasi.jpg",
         price: "35,560",
     },
 
@@ -51,7 +51,7 @@ const data = [
         name: "Darjelling",
         info: " Agra, city, western Uttar Pradesh state, northern India. It lies in the Indo-Gangetic Plain on the Yamuna (Jumna) River about 125 miles (200 km) southeast of Delhi.",
 
-        image: "assets/images/darjeeling.jpg",
+        image: "/assets/images/darjeeling.jpg",
         price: "35,560",
     }
 
