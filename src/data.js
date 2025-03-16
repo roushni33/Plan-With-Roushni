@@ -51,7 +51,7 @@ const data = [
         info: " Darjeeling, often called the Queen of the Hills is a beautiful hill station in West Bengal, India, famous for its breathtaking landscapes, tea gardens, and colonial charm. Nestled in the Himalayas, it offers stunning views of Kanchenjunga, the world’s third-highest peak.",
 
         image: "/assets/images/darjeeling.jpg",
-        price: "35,560",
+        price: "95,560",
     }
 
 ]
